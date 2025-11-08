@@ -1,0 +1,87 @@
+header{
+position: fixed;
+background-color: #293341;
+height: auto;
+width: 280px;
+padding: 0 15px;
+top: 0;
+bottom: 0;
+left: 0;
+overflow-x:hidden ;
+overflow-y: auto;
+}
+.nav-bar{
+    margin-top: 15px;
+    padding-left: 0px;
+}
+.principal{
+width: 270px;
+height: 105vh;
+padding: 40px;
+
+}
+.principal .profil {
+    text-align: center;
+}
+.principal .profil img{
+    width: 200px;
+    height: 200px;
+    margin-left: -30px;
+    border-radius: 20px;
+    border: 6px solid #ffffff33;
+    display: block;
+}
+.principal h1{
+    font-family: 'Ubuntu' ,sans-serif ; 
+    font-size: 24PX;
+    font-weight: 300;
+    margin-left: -120px;
+    color: #ffffff;
+    text-align: center;
+}
+.principal ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.principal ul li  {
+    color: white;
+   font-family: 'raleway',sans-serif ;
+   font-size: 16PX;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 15px 10px;
+   font-weight: 500;
+   margin: 0;
+}
+.icone a{
+    width: 35px;
+    height: 35px;
+    border-radius: 9px;
+    display: inline-flex;
+    gap: 15px;
+    justify-content:center;
+    align-items: center;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    font: 16px roboto,system-ui;
+    background-color: #293341;
+    color: white;
+    margin: 3px;  
+    transition: all 0.3s ease;  
+
+    
+}
+.principal ul li:hover{
+    color: #22E7A1;
+    cursor: pointer;
+}
+.icone a:hover{
+     background-color: #22E7A1;
+     cursor: pointer;
+     
+}
+     
+
