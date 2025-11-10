@@ -119,9 +119,9 @@ body{
 }  
 .sec p{
    
-    font: 18px'roboto','sans-serif';
+    font: 20px'roboto','sans-serif';
     color: white;
-    line-height: 2.2;
+    line-height: 1.9;
 }
 .sec span{
     color: #22E7A1;
@@ -159,12 +159,12 @@ body{
 }
 
 .stat h3 {
-  font:32px'roboto','sans-serif';
+  font:32px'Roboto','sans-serif';
   margin-bottom: 5px;
 }
 
 .stat p {
-  font:14px'roboto','sans-serif';
+  font:14px'Roboto','sans-serif';
   color: #666;
   margin: 0;
 }
@@ -225,4 +225,8 @@ body{
 }
 .palette:hover ,.camera:hover,.code:hover{
     transform: scale(1.1);
+}
+.ok{
+    border-bottom: 2px solid #22E7A1;
+    color:#22E7A1;
 }
