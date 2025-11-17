@@ -377,7 +377,7 @@ section{
     bottom: 90px;
 }
 .riz{
-   margin: 0;
+    
 }
 .pointille{
     font-size: 70px;
@@ -412,6 +412,9 @@ section{
 }
 .design {
     margin-top: 90px;
+    height: 70px;
+    
+   
 }
 #About .btn button{
     width: 180px;
@@ -433,7 +436,7 @@ section{
      margin-left: 50px;
 }
 .autre h3{
-    font-size: 72px;
+    font-size: 70px;
     font-family: 'ubuntu' , sans-serif;
     font-weight: 300;
     color: white;
@@ -453,9 +456,9 @@ section{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 30px;
-    
-    
+     
 }
+
 .partie h4{
     font-size: 20px;
     font-family: 'ubuntu' , sans-serif;
@@ -491,7 +494,7 @@ section{
  border-top: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);
 }
 .skills-section{
-    width: 942px;
+    margin-top: -600px;
 }
 .skills-section h2{
     font-family: 'ubutu' sans-serif;
@@ -499,10 +502,11 @@ section{
     font-weight: 300;
     line-height: 1.6;
     color: white;
-   
 }
 .titresect{
     margin-bottom: 800px;
+    margin-top: 0;
+    padding-top: 40px;
     text-align: center;
     width: 942px;
     position: absolute;
@@ -669,10 +673,12 @@ font-size: 16px;
    font-weight: 500;
    color:  #adb5bd;
    margin-bottom: 40px;
+   
 }
 .category-header{
      border-bottom: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);
-     margin-bottom: 20px;
+     margin-bottom: 0px;
+     margin-top: 0;
 }
 .ligne {
    width: 100%;
