@@ -1028,13 +1028,12 @@ color: white;
     font-family: 'roboto' sans-serif;
     color: #adb5bd;
     margin-top: 6px;
-    margin-left: 10px;
+    margin-left: 150px;
 }
 .ans{
-    width: 350px;
+    width: 300px;
     height: 50px;
     display: inline-flex;
-    
 }
 .demo img{
     width: 350px;
