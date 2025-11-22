@@ -1077,6 +1077,7 @@ color: white;
 }
 .service-item{
     padding-left: 40px;
+    padding-top: 40px;
 }
 .service-item i:hover{
     transform: scale(1.1);
