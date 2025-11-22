@@ -33,12 +33,11 @@ padding: 40px;
 }
 .principal h1{
     font-family: 'Ubuntu' ,sans-serif ; 
-    font-size: 24px;
+    font-size: 24PX;
     font-weight: 300;
     margin-left: -120px;
     color: #ffffff;
     text-align: center;
-
 }
 .principal ul{
     list-style: none;
@@ -47,19 +46,16 @@ padding: 40px;
     padding: 10px;
 }
 
-
-.principal ul li a {
+.principal ul li  {
     color: white;
    font-family: 'raleway',sans-serif ;
-   font-size: 16px;
+   font-size: 16PX;
    display: flex;
    align-items: center;
    gap: 10px;
    padding: 15px 10px;
    font-weight: 500;
-   margin: 0; 
-   text-decoration: none;
-  
+   margin: 0;
 }
 .icone a{
     width: 35px;
@@ -78,13 +74,14 @@ padding: 40px;
 
     
 }
-.principal ul li a:hover{
+.principal ul li:hover{
     color: #22E7A1;
     cursor: pointer;
 }
 .icone a:hover{
      background-color: #22E7A1;
-     cursor: pointer;  
+     cursor: pointer;
+     
 }
 
 body{
@@ -100,8 +97,8 @@ section{
     background-color: #293341;
     align-items: center;
     gap: 20px;
-    display: flex; 
-     
+    display: flex;
+    
 }  
 .im img{
     
@@ -115,30 +112,25 @@ section{
 }
 .sec{
     padding: 20px;
-    margin-top: 190px;
 }
 .sec h1{
-    font-family: 'Ubuntu' ,sans-serif ; 
-    font-size: 56px;
-    font-weight: 300;
-    color: white;
+    font: 56px'Ubuntu',sans-serif;
+    color: white
 }  
 .sec p{
    
-    font-family:'roboto','sans-serif';
-    font-size: 20px;
-    font-weight: 300;
+    font: 20px'roboto','sans-serif';
     color: white;
     line-height: 1.9;
 }
-section span{
+.sec span{
     color: #22E7A1;
 }
 .btn button{
     position: relative;;
-    width: 170px;
+    width: 150px;
     height: 60px;
-    border-radius: 10px;
+    border-radius: 13px;
     margin:15px;
     justify-content: space-between;
     font: 14px 'roboto','sans-serif';
@@ -172,8 +164,7 @@ section span{
 }
 
 .stat p {
-  font-family:'Roboto','sans-serif';
-  font-size: 14px;
+  font:14px'Roboto','sans-serif';
   color: #666;
   margin: 0;
 }
@@ -239,6 +230,7 @@ section span{
     border-bottom: 2px solid #22E7A1;
     color:#22E7A1;
 }
+
 #About{
  display: flex;
  flex-direction: column;
@@ -279,6 +271,9 @@ section span{
     position: relative;
     
 }  
+.container span{
+     color: #22E7A1;
+}
 .tous{
      display: flex;
      margin-top: 35%;
@@ -381,9 +376,7 @@ section span{
     position: relative;
     bottom: 90px;
 }
-.riz{
-   margin: 0;
-}
+
 .pointille{
     font-size: 70px;
     font-family: 'roboto',sans-serif;
@@ -417,6 +410,9 @@ section span{
 }
 .design {
     margin-top: 90px;
+    height: 70px;
+    
+   
 }
 #About .btn button{
     width: 180px;
@@ -438,7 +434,7 @@ section span{
      margin-left: 50px;
 }
 .autre h3{
-    font-size: 72px;
+    font-size: 70px;
     font-family: 'ubuntu' , sans-serif;
     font-weight: 300;
     color: white;
@@ -458,9 +454,9 @@ section span{
     margin-top: 100px;
     margin-bottom: 100px;
     margin-left: 30px;
-    
-    
+     
 }
+
 .partie h4{
     font-size: 20px;
     font-family: 'ubuntu' , sans-serif;
@@ -495,3 +491,568 @@ section span{
 .nao{
  border-top: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);
 }
+.skills-section{
+    margin-top: -600px;
+}
+.skills-section h2{
+    font-family: 'ubutu' sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: white;
+   
+}
+.htitre::before{
+ border: 2px solid;
+content: "";
+position: absolute;
+display: block;
+width: 150px;
+height: 2px;
+background: color-mix(in srgb,#f3f4f6 10%,transparent 90%);
+left: 0;
+right: 0;
+bottom: 1000px;
+margin: auto;
+}
+.htitre::after{
+content: "";
+position: absolute;
+display: block;
+width: 150px;
+height: 2px;
+background: color-mix(in srgb,#f3f4f6,transparent 90%);
+left: 0;
+right: 0;
+bottom: 1000px;
+margin: auto;
+}
+.titresect{
+    margin-bottom: 800px;
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+    width: 942px;
+    position: absolute;
+        
+}
+.titresect p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.paragsection{
+    margin-bottom: 450px;
+    position: absolute;
+    margin-left: 130px;
+    text-align: center;
+}
+.paragsection p{
+    font-size: 22px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color:  #adb5bd;
+    margin-bottom: 70px;
+}
+.titresect p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    color:  white;
+}
+.skills-section h3{
+    font-size: 24px;
+    font-family: 'ubutu' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.title{
+    font-size: 18px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.container-sec{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 800px;
+    margin-top: 800px;
+}
+
+.skills-list{
+    
+    display: flex;
+    flex-direction: column;
+
+}
+.pourcentage{
+    font-size: 14px;
+    font-family: 'roboto' sans-serif;
+    font-weight: bold;
+    color: #22E7A1;
+    margin-left: 450px;
+}
+.naom{
+    margin-top: 900px;
+    margin-left:60px;
+    margin-bottom: 340px;
+    width: 290px;
+}
+.autrepart .icone{
+    color: #22E7A1;
+    font-size: 60px;
+    padding: 20px;
+     
+}
+.autrepart h4{
+    font-size: 20px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.autrepart .nombre{
+    color:#22E7A1;
+    font-size: 56px;
+    font-weight: 300;
+    font-family: 'ubuntu ' sans-serif;
+}
+.annee{
+    font-size: 18px;
+    font-family: 'roboto' sans-serif;
+    color: #b5c0c9;
+}
+.autrepart p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: #b5c0c9;
+}
+.autrepart{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:  color-mix(in srgb,#b5c0c9  5%, transparent 90%);
+    text-align: center;
+}
+.naom h5{
+    font-size: 18px;
+    
+    font-family: 'ubuntu ' sans-serif;
+    color: white;
+}
+
+.technologies span{
+font-size: 15px;
+font-family: 'roboto' sans-serif;
+font-weight: 300;
+color: white;
+}
+.item i{
+color: #22E7A1;
+font-size: 16px;
+}
+.tech{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+.item{
+   width: 110px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:  color-mix(in srgb,#b5c0c9  5%, transparent 90%);
+}
+.achtext p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+     margin-left: 15px;
+}
+.achtext h6{
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    color: #22E7A1;
+   
+}
+.achtext{
+      display: flex;
+      align-items: center;
+        gap: 10px;
+         border-bottom: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);
+    
+}
+
+.category-header p{
+   font-size: 18px;
+   font-family: 'roboto' sans-serif;
+   font-weight: 500;
+   color:  #adb5bd;
+   margin-bottom: 40px;
+   
+}
+.category-header{
+     border-bottom: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);
+     margin-bottom: 0px;
+     margin-top: 0;
+}
+.ligne {
+   width: 100%;
+  height: 2px;            
+  background: white;   
+  overflow: hidden; 
+  margin-top: 30px; 
+}
+
+.skills-bar {
+  height: 100%;             
+  background-color: #22E7A1;
+   
+
+}
+.skills{
+    margin-bottom: 30px;
+}
+#cv-section{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+}
+
+#cv-section h2{
+    font-size: 32px;
+    font-family: 'ubutu' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.container-section p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 900px 
+}
+.container-section{
+     margin-bottom: 40px;
+    text-align: center; 
+}
+.educ-prof{
+    
+    display: flex;
+    width: 900px;
+      margin-top: 30px;
+}
+.educ-prof p{
+    font-size: 17px;
+    font-family: 'roboto ' sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #adb5bd;
+}
+.timeline{
+    margin-left: 20px;
+}
+.educ-prof span{
+    font-size: 14.4px;
+    font-family: 'roboto' sans-serif;
+    color: #22E7A1;
+    margin-top: 15px;
+}
+.timeline .tag{
+    font-size: 13.6px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color:white;
+    width: 135px;
+    height: 25px;
+    border-radius: 15px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:  color-mix(in srgb,#b5c0c9  5%, transparent 90%);
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    display: flex; 
+}
+#cv-section h3{
+    font-size: 22px;
+    font-family: 'ubutu'sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.educ-prof h4{
+    font-size: 16px;
+    font-family: 'ubutu ' sans-serif;
+    font-style:inherit;
+    color: #adb5bd; 
+
+}
+.timeline{
+margin-bottom: 35px;
+}
+.educ-prof i{
+    font-size: 23px;
+     width: 15px;
+    height: 8px;
+    border-radius: 50%;
+    color: #22E7A1;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    background-color: color-mix(in srgb, #22E7A1 20%, transparent 80%);  
+}
+.sec-one{
+    width: 450px;
+}
+.sec-two{
+    width: 450px;
+}
+.timeline-edu i{
+   font-size: 14px;
+   width: 2px;
+   height: 2px;
+   border-radius: 10px;
+    background-color: color-mix(in srgb, #22E7A1 20%, transparent 80%)
+}
+
+.timeline-edu .pp  {
+    color:#22E7A1;
+    width: 225px;
+    height: 30px;
+    border-radius: 15px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:  color-mix(in srgb,#b5c0c9  5%, transparent 90%);
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px;
+    
+}
+.sec-two .timeline-edu{
+ 
+     width: 450px;
+    height: 300px;
+    border-radius: 10px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:  color-mix(in srgb,#b5c0c9  5%, transparent 90%);
+}
+.Director{
+    margin-top: 27px;
+    margin-left: 45px;
+
+}
+.magna{
+    margin-left: 45px; 
+}
+.chris{
+   width: 450px;
+    height: 230px;
+    border-radius: 10px;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color:  #293341;
+    margin-top: 30px; 
+  
+
+}
+.chris p{
+    margin-bottom: 50px;
+}
+.cert-item h5{
+font-size: 15.6px;
+font-family: 'roboto' sans-serif;
+font-style: normal;
+font-weight: 300;
+color: white;
+}
+.cert-item i{
+font-size: 16px;
+   border: none;          
+    background: none;      
+    box-shadow: none;     
+    padding: 0;  
+}
+.cert-item p{
+    font-size: 13.6px;
+    font-family: 'roboto ' sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #adb5bd;
+    padding-top:2px ;
+    margin-left: 25px;
+}
+.cert-item{
+    margin-top: 10px;
+    border-bottom: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);   
+}
+.timeline-sec{
+     position: relative;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    min-height: 60px;
+    
+}
+.timeline-sec::before{
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color:color-mix(in srgb,#22E7A1  20%, transparent 80%);
+}
+.arrondi{
+width: 14px;
+height: 14px;
+border-radius: 50%;
+border: 3px solid;
+position: relative;
+}
+.point{
+    width: 6px;
+    height: 6px;
+    background: #22E7A1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon-chris{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 12px;
+}
+.grand-item{
+    margin-top: -900px;
+    height: auto;
+    margin-top: 5px;
+
+}
+.Director i{
+    font-size: 12px;
+    height: 1px;
+    width: 3px;
+    border-radius: 5px;
+}
+.grand-item h4{
+color: white;
+font-family: 'ubutu' sans-serif;
+font-style: normal;
+font-size: 20px;
+}
+.titre-portfo h2{
+    font-size: 32px;
+    font-family: 'ubuntu' sans-serif;
+    color: white;
+    font-weight: 300;
+    
+}
+.titre-portfo p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white; 
+    
+}
+.titre-portfo{
+  width: 900px;
+  height: 180px;
+  margin-left: 18px;
+  text-align: center;
+   position: absolute;
+}
+a li  {
+   font-size: 16px;
+    font-family: 'ubuntu' sans-serif;
+    color: white;
+    font-weight: 300; 
+   margin-left: 90px;
+}
+a {
+    text-decoration: none;
+}
+.filters {
+     width: 0px;
+    height: 50px;
+    margin-bottom: 130px;
+    list-style: none;
+    margin-top: 400px;
+    display: inline-flex;
+    gap: 5px;
+}
+.filters :hover{
+    cursor: pointer;   
+    color: #666;
+}
+.filters li{
+    position: relative;
+  padding-bottom: 15px;
+}
+.filters li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;         
+  height: 2px;          
+  background-color:#22E7A1;
+}
+.portof h3{
+font-size: 24px;
+font-family: 'ubutu' sans-serif;
+font-weight: 300;
+color: white;
+}
+.portof p{
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color:#adb5bd;
+    
+}
+.portof span{
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    color: #22E7A1;    
+}
+.portof h6{
+    font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    color: #adb5bd;
+    margin-top: 6px;
+    margin-left: 150px;
+}
+.ans{
+    width: 300px;
+    height: 50px;
+    display: inline-flex;
+}
+.demo img{
+    width: 350px;
+    height: 220px;
+}
+.portof{
+     margin-top: 1800px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 70px; 
+}
+.contain{
+    width: 500px; 
+}
+#Portfolio{
+ margin-top: -1400px; 
+}
+
+
+
+
