@@ -502,31 +502,6 @@ section{
     color: white;
    
 }
-.htitre::before{
- border: 2px solid;
-content: "";
-position: absolute;
-display: block;
-width: 150px;
-height: 2px;
-background: color-mix(in srgb,#f3f4f6 10%,transparent 90%);
-left: 0;
-right: 0;
-bottom: 1000px;
-margin: auto;
-}
-.htitre::after{
-content: "";
-position: absolute;
-display: block;
-width: 150px;
-height: 2px;
-background: color-mix(in srgb,#f3f4f6,transparent 90%);
-left: 0;
-right: 0;
-bottom: 1000px;
-margin: auto;
-}
 .titresect{
     margin-bottom: 800px;
     margin-top: 0;
@@ -857,8 +832,6 @@ margin-bottom: 35px;
      border: 1px solid rgba(255, 255, 255, 0.2);
     background-color:  #293341;
     margin-top: 30px; 
-  
-
 }
 .chris p{
     margin-bottom: 50px;
@@ -947,6 +920,10 @@ font-family: 'ubutu' sans-serif;
 font-style: normal;
 font-size: 20px;
 }
+#Portfolio{
+    display: flex;
+    flex-direction: column;
+}
 .titre-portfo h2{
     font-size: 32px;
     font-family: 'ubuntu' sans-serif;
@@ -964,7 +941,7 @@ font-size: 20px;
 .titre-portfo{
   width: 900px;
   height: 180px;
-  margin-left: 18px;
+  margin-top: 1500px;
   text-align: center;
    position: absolute;
 }
@@ -983,7 +960,8 @@ a {
     height: 50px;
     margin-bottom: 130px;
     list-style: none;
-    margin-top: 400px;
+    margin-top: 1700px;
+    margin-right: 920px;
     display: inline-flex;
     gap: 5px;
 }
@@ -996,7 +974,7 @@ a {
   padding-bottom: 15px;
 }
 .filters li::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   bottom: 0;
@@ -1036,23 +1014,422 @@ color: white;
     display: inline-flex;
 }
 .demo img{
-    width: 350px;
-    height: 220px;
+    width: 430px;
+    height: 360px;
+     border-radius: 15px;
+    transition: 0.3 ease;
+}
+.demo img:hover{
+    transform: scale(1.1);
 }
 .portof{
      margin-top: 1800px;
     display: grid;
-    gap: 15px;
+    gap: 25px;
     grid-template-columns: repeat(2,1fr);
-    margin-bottom: 70px; 
-}
-.contain{
-    width: 500px; 
+    margin-top: -100px; 
+    
 }
 #Portfolio{
  margin-top: -1400px; 
 }
+.cont-service h2{
+     font-size: 32px;
+    font-family: 'ubutu' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.cont-service p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+    width: 900px 
+}
+.cont-service{
+    margin-top: 90px;
+    text-align: center;
+}
+.row .service-item{
+    height: 450px ;
+    transition: 0.3 ease;
+}
+
+.service-icone i{
+    font-size: 32px;
+    color: #22E7A1;
+     height: 70px;
+    width: 70px;
+     display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+     background-color: color-mix(in srgb, #22E7A1 15%, transparent 85%);
+     border:  rgba(255, 255, 255, 0.2);
+    transition: all 0.3 ease;
+}
+.service-item{
+    padding-left: 50px;
+    padding-top: 40px;
+     border-radius: 25px;
+}
+.service-icone i:hover{
+    transform: scale(1.1);
+    background-color:color-mix(in srgb, #22E7A1 70%, transparent 30%) ;
+}
+.service-item h3{
+    font-size: 28px;
+    font-family: 'ubutu' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.service-item p{
+     font-size: 15px;
+    font-family: 'roboto' sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color:#adb5bd;
+}
+.learn{
+     font-size: 14px;
+    font-family: 'roboto' sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #22E7A1;
+}
+.learn-icone i{
+    font-size: 15px;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px ;
+    width: 90%; 
+    height: auto;
+    margin-top: 40px;
+   
+}
+
+.service-item:hover{
+     border:  rgba(255, 255, 255, 0.2);
+      box-shadow: 0 20px 60px color-mix(in srgb, white 15%, transparent 85%);
+    background: #1e2a38;
+    transition: scale(1.1);
+}
+
+#Service{
+    display: flex;
+    flex-direction: column;
+}
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+}
+.Testimonials h2{
+  font-size: 32px;
+    font-family: 'ubutu' sans-serif;
+    font-weight: 300;
+    color: white;   
+}
+.Testimonials p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.Testimonials-container{
+    text-align: center;
+}
+.paragraphe-testim p{
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 50px;
+}
+.Testimonials-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.Testimonials-header .star{
+    font-size: 22px;
+    color: gold;
+}
+.tes-icone i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #22E7A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info img{
+    width: 85px;
+    height: 85px;
+    border: 5px solid #22E7A1;
+    border-radius: 50%;
+}
+.detail h4{
+    font-size: 20px;
+    font-family: 'ubutu' sans-serif;
+    color: white;
+}
+.detail span{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: #22E7A1;
+    margin-top: 3px;
+}
+.detail h5{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: #adb5bd;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.detail  {
+    margin:0px;  
+}
+.strategy{
+    width: 700px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solidrgba(255, 255, 255, 0.05);
+    border-top:4px solid #22E7A1;
+    border-radius: 20px;
+    padding: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navigation{
+    margin-top: 30px;
+}
+.droite {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #22E7A1;
+    margin-left: 750px;
+   
+}
+.gauche {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #22E7A1;
+}
+.contact-title{
+    text-align: center;
+}
+.detail-item{
+    display: inline-flex;
+    gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact-title h2{
+    font-size: 32px;
+    font-family: 'ubutu' sans-serif;
+    font-weight: 300;
+    color: white; 
+}
+.contact-title p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-weight: 300;
+    color: white;
+}
+.cont-icon i{
+    font-size: 24px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    color: #22E7A1;
+     border-radius: 50%;
+     background-color: color-mix(in srgb, #22E7A1 15%, transparent 85%);
+     border:  rgba(255, 255, 255, 255);
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.info-content h4{
+    font-size: 24px;
+    font-family: 'ubutu' sans-serif;
+    font-style: 1.7;
+    color: white;
+}
+.info-content p{
+    font-size: 16px;
+    font-family: 'roboto' sans-serif;
+    font-style: 1.7;
+    color: #adb5bd;
+}
+.detail-item i{
+    font-size: 18px;
+    color: #22E7A1;
+}
+.detail-label{
+    font-size: 13px ;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, 
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: color-mix(in srgb,#f3f4f6 60%, transparent 40%);
+    font-weight: 500;
+}
+.detail-vente{
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;;
+    color: white;
+}
+.cont-cont2 h3{
+    font-size: 32px;
+    font-family: 'Ubutu' sans-serif;
+    color: white;
+    font-weight: 300;
+}
+.cont-cont2 label{
+    font-size: 14px;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, 
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: white;
+    margin-bottom: 30px ;
+    margin-bottom: 6px;
+   
+}
+.cont-cont2 input{
+    width: 200px;
+    height: 30px;
+    background: #293341;
+    border-radius: 10px;
+    border: 1px solid #b5c0c9;
+    transition: border 0.2s ease;
+    margin-top: 50px;
+    width: 100%;
+    padding: 10px;
+    margin-left: -95px;
+}
+.cont-cont2 input:hover{
+    border:1px solid #22E7A1;
+}
+.cont-cont2 textarea{
+    width: 550px;
+    height: 150px;
+     background: #293341;
+    border-radius: 10px;
+    border: 1px solid #b5c0c9;
+    margin-top: 40px;
+    transition: border 0.2s ease;
+    margin-left: -105px;
+}
+.cont-cont2 textarea:hover{
+     border:1px solid #22E7A1;
+}
+.send-btn{
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, 
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    background: #22E7A1;
+    border: #22E7A1;
+    cursor: pointer;
+    transition:0.3s ease;
+}
+.send-btn:hover{
+    transform: scale(1.1);
+      box-shadow: 0 20px 60px color-mix(in srgb, white 15%, transparent 85%);
+}
+.row-two{
+  display: flex;
+  gap: 20px;  
+}
+.form-group{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 50px;
+    flex: 1;
+}
 
 
 
+.contact-container{
+    display: flex;
+    gap: 20px;
+}
+.cont-cont1{
+    width: 320px;
+    
+}
+.cont-cont2{
+    width: 550px;
+}
 
+#Contact{
+    display: flex;
+    flex-direction: column;
+}
+.container-foot{
+    display: flex;
+    flex-direction: column;
+    background: #293341;
+     width: 1500px;
+    height: auto;
+    text-align: center;
+}
+.container-foot h3{
+    font-size: 36px;
+    font-family: "ubuntu" sans-serif;
+    color: white;
+    font-style: normal;
+}
+.container-foot p{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+    font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, 
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, 
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  ;
+}
+.icone-foot i{
+    font-size: 15px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    gap: 25px;
+    background-color: #22E7A1;
+    color: #1e2a38;
+    justify-content: center;
+    align-items: center;
+}
+.copy-rigth{
+      border-top: 1px solid color-mix(in srgb,#f3f4f6,transparent 90%);
+      margin-top: 30px;
+      font-style: normal;
+      panding:
+}
+.credit a{
+    color: #22E7A1;
+
+}
