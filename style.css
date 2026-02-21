@@ -763,6 +763,7 @@ section {
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";  
   color: #22e7a1;
   font-weight: 500;
+  margin: 0px 0px 8px;
 }
 
 .container-profesional{
@@ -785,7 +786,7 @@ section {
 .tag{
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .resume-container h3 {
@@ -802,6 +803,9 @@ section {
   color: #adb5bd;
   margin: 0px 0px 16px;
  
+}
+.timeline{
+  padding: 24px;
 }
 
 .container-education {
@@ -858,9 +862,8 @@ section {
 }
 
 .cert-item {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding: 6px 0px;
   border-bottom: 1px solid color-mix(in srgb, #f3f4f6, transparent 95%);
   
 }
@@ -894,7 +897,7 @@ section {
 /* barre*/
 .timeline-sec {
   position: relative;
-  margin: 0px 0px 0px 5px;
+  /* margin: 0px 0px 20px 5px; */
 }
 
 .arrondi {
